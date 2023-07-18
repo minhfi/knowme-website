@@ -1,0 +1,8 @@
+@import '/src/styles/mixin';
+@import '/src/styles/variables';
+
+.notFound {
+  @include flex-row-middle();
+  color: $neutral-white;
+  flex: 1;
+}

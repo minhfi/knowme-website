@@ -1,0 +1,11 @@
+@import '/src/styles/variables';
+@import '/src/styles/mixin';
+@import '/src/styles/animation';
+
+.spinner {
+  animation: spin 1s linear infinite;
+}
+
+:export {
+  neutralWhite: $neutral-white;
+}

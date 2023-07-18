@@ -1,0 +1,5 @@
+export { default as IconFB } from './i-fb.svg'
+export { default as IconInstagram } from './i-instagram.svg'
+export { default as IconLinkedin } from './i-linkedin.svg'
+export { default as IconLogo } from './i-logo.svg'
+export { default as IconTwitter } from './i-twitter.svg'

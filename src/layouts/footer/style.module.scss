@@ -1,0 +1,96 @@
+@import '/src/styles/variables';
+@import '/src/styles/mixin';
+
+.footer {
+  @include flex-row-middle();
+  border-top: 1px solid #42434D;
+}
+
+.background {
+  @include flex(row, space-between, center);
+  padding: 24px 0;
+  max-width: 1052px;
+  padding: 16px;
+  width: 100%;
+
+  @include mediaQueryMax($screenMedium) {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+
+  }
+}
+
+.policy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @include mediaQueryMax($screenMedium) {
+    justify-content: center;
+    gap: 24px;
+  }
+}
+
+.policyList {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 32px;
+
+  @include typo(16px, 400, 28px);
+
+  div {
+    cursor: pointer;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  @include mediaQueryMax($screenXLarge) {
+    @include typo(14px, 400, 14px);
+  }
+
+  @include mediaQueryMax($screenMedium) {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
+}
+
+.policyCopyright {
+  @include text-style(12px, 400, 20px, $neutral-white);
+
+  @include mediaQueryMax($screenMedium) {
+    @include typo(11px, 400, 16px);
+    text-align: center;
+  }
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  @include text-style(14px, 400, 24px, $neutral-white);
+
+  @include mediaQueryMax($screenMedium) {
+    align-items: center;
+  }
+
+  >div:first-child {
+    @include typo(11px, 400, 11px);
+  }
+
+  >div:last-child {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    svg {
+      cursor: pointer;
+    }
+  }
+}

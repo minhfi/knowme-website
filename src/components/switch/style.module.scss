@@ -1,0 +1,11 @@
+@import '/src/styles/variables';
+
+.switch {
+  &[class*='ant-switch-checked'] {
+    background: $positive-500;
+
+    &:hover:not(.ant-switch-disabled) {
+      background: $positive-500;
+    }
+  }
+}

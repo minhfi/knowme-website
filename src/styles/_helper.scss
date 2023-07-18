@@ -1,0 +1,117 @@
+body {
+  color: $neutral-black;
+  scroll-behavior: smooth;
+  background-color: $neutral-900;
+  font-family: $primaryFont;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.relative {
+  position: relative;
+}
+
+.not-allow,
+.not-allowed {
+  cursor: not-allowed;
+}
+
+.oneline-text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.hide,
+.hidden {
+  display: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/**
+  * Color
+  */
+.txt-neutral-100 {
+  color: $neutral-100;
+}
+
+.txt-neutral-200 {
+  color: $neutral-200;
+}
+
+.txt-neutral-250 {
+  color: $neutral-250;
+}
+
+.txt-neutral-300 {
+  color: $neutral-300;
+}
+
+.txt-neutral-400 {
+  color: $neutral-400;
+}
+
+.txt-neutral-600 {
+  color: $neutral-600;
+}
+
+.txt-neutral-700 {
+  color: $neutral-700;
+}
+
+.txt-neutral-900 {
+  color: $neutral-900;
+}
+
+.txt-neutral-white {
+  color: $neutral-white;
+}
+
+.txt-error {
+  color: $negative-500
+}
+
+
+/**
+  * Width
+  */
+
+.w-50 {
+  width: 50%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+/**
+  * Height
+  */
+.h-100 {
+  height: 100%;
+}
+
+.d-none, .hidden {
+  display: none !important;
+}

@@ -1,0 +1,13 @@
+.overlay {
+  position: absolute;
+  z-index: 9999;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(36 37 45 / 40%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // display: ${isOpen ? 'flex' : 'none'};
+}

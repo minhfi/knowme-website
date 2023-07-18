@@ -1,0 +1,61 @@
+// START: Screen size
+$screenXXXXLarge: 1920px;
+$screenXXXLarge: 1600px;
+$screenXXLarge: 1440px;
+$screenXLarge: 1366px;
+$screenLarge: 1280px;
+$screenMedium: 1024px;
+$screenSmall: 768px;
+$screenExtraSmall: 414px;
+$screenExtraXSmall: 375px;
+
+// START: Font
+$primaryFont: 'Inter';
+$regularWeight: 400;
+$mediumWeight: 500;
+$semiBoldWeight: 600;
+$boldWeight: 700;
+
+// START: Color
+
+// primary
+$primary-100: #FEFEEC;
+$primary-300: #FAFDAA;
+$primary-400: #F7FB6F;
+$primary-500: #F2F92F;
+$primary-600: #DAE029;
+$primary-900: #757817;
+
+// neutral
+$neutral-black: #000000;
+$neutral-100: #F1F2F3;
+$neutral-200: #DADBE7;
+$neutral-250: #AFB0BE;
+$neutral-300: #80818E;
+$neutral-400: #5B5C67;
+$neutral-500: #42434D;
+$neutral-600: #2C2D35;
+$neutral-700: #24252D;
+$neutral-800: #1D1E26;
+$neutral-900: #181920;
+$neutral-white: #FFFFFF;
+
+$positive-500: #3AD98A;
+
+$cyan-600: #00BAC7;
+$cyan-500: #00D1E0;
+$cyan-400: #4FDEE8;
+$cyan-300: #97EBF2;
+
+// orange
+$orange-400: #FFAC4D;
+$orange-500: #FF8800;
+
+// positive
+$positive-500: #3AD98A;
+
+// negative
+$negative-500: #EA2E4E;
+
+// START: Other stuffs
+$transition-duration: 0.6s;

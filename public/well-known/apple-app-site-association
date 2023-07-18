@@ -1,0 +1,25 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "4548HP78DF.com.knowmebest.knowme.dev",
+                "paths": [
+                    "*"
+                ]
+            },
+            {
+                "appID": "4548HP78DF.com.knowmebest.knowme.staging",
+                "paths": [
+                    "*"
+                ]
+            },
+            {
+                "appID": "4548HP78DF.com.knowmebest.knowme",
+                "paths": [
+                    "*"
+                ]
+            }
+        ]
+    }
+}

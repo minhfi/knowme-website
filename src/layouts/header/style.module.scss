@@ -1,0 +1,22 @@
+@import '/src/styles/variables';
+@import '/src/styles/mixin';
+
+.header {
+  @include flex-row-middle();
+  padding: 24px 16px 16px;
+  border-bottom: 1px solid $neutral-600;
+
+  .logo {
+    margin-bottom: 8px;
+  }
+
+  .company {
+    @include flex-column-middle()
+  }
+
+  .companyName {
+    @include text-style(16px, $boldWeight, 28px, $neutral-white);
+    text-transform: uppercase;
+    margin: 0;
+  }
+}

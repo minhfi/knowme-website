@@ -1,0 +1,5 @@
+@import '/src/styles/variables';
+@import '/src/styles/mixin';
+:export {
+  primary500: $primary-500;
+}
